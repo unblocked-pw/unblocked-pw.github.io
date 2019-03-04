@@ -5,11 +5,22 @@ h4 {font-size:24px;font-weight:bold;margin-bottom: 10px;margin-top:25px;}
 h4 img {width:24px;height:24px;vertical-align: top;}
 .listrows {margin-left:40px;margin-right:40px;padding-top:0px;}
 .col-md-3 {padding-left:8px;padding-right:8px;}
-.btn{color:#fff;background: rgb(121, 121, 121);background: rgba(102, 102, 102, 0.8);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#797979, endColorstr=#797979);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#797979, endColorstr=#797979)";font-size:16px;}
+.btn {
+    color: rgb(0, 0, 0);
+    box-shadow: rgb(156, 156, 156) 0px 2px 2px 0px;
+    font-size: 16px;
+    margin: 4px;
+    border-bottom: 2px solid rgb(170, 170, 170);
+    border-radius: 0px;
+    background: transparent;
+}
 .btn img {margin: -4px;vertical-align: initial;}
 .btn:hover{color:#fff;background-color:#666666;}
 .btn:active{color:#000;}
-.btn:focus{color:#000;background-color:#ccc;outline: 0;}
+.btn:focus{    color: rgb(0, 0, 0);
+    background-color: rgb(204, 204, 204);
+    box-shadow: none;
+    border-top: 4px solid rgb(170, 170, 170);}
 .btn-new {background-color: #337ab7;}
 .btn-new:hover {color:#fff;background-color:#5b94c5;}
 .btn-new:focus{color:#fff;background-color:#5b94c5;outline: 0;}
