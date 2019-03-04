@@ -62,3 +62,8 @@ h4 img {width:24px;height:24px;vertical-align: top;}
   h4 {font-size:18px}
   h4 img {width:18px;height:18px}
 }
+@media (min-width: 1200px) {
+	.container {
+		width: 1000px;
+	}
+}
