@@ -7,7 +7,7 @@ h4 img {width:24px;height:24px;vertical-align: top;}
 .col-md-3 {padding-left:8px;padding-right:8px;}
 .btn {
     color: rgb(0, 0, 0);
-    box-shadow: rgb(156, 156, 156) 0px 2px 2px 0px;
+    box-shadow: rgb(156, 156, 156) 0px 2px 2px 0px, 0px 0px 0px 1px rgb(112, 112, 112);
     font-size: 16px;
     margin: 4px;
     border-bottom: 2px solid rgb(170, 170, 170);
@@ -19,8 +19,8 @@ h4 img {width:24px;height:24px;vertical-align: top;}
 .btn:active{color:#000;}
 .btn:focus{    color: rgb(0, 0, 0);
     background-color: rgb(204, 204, 204);
-    box-shadow: none;
-    border-top: 4px solid rgb(170, 170, 170);}
+    box-shadow: rgb(156, 156, 156) 0px -0px 2px 0px;
+    border-top: 1px solid rgb(170, 170, 170);}
 .btn-new {background-color: #337ab7;}
 .btn-new:hover {color:#fff;background-color:#5b94c5;}
 .btn-new:focus{color:#fff;background-color:#5b94c5;outline: 0;}
