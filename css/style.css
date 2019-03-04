@@ -12,7 +12,8 @@ h4 img {width:24px;height:24px;vertical-align: top;}
     margin: 4px;
     border-bottom: 2px solid rgb(170, 170, 170);
     border-radius: 0px;
-    background: transparent;
+	background: transparent;
+	padding: 5px;
 }
 .btn img {margin: -4px;vertical-align: initial;}
 .btn:hover{color:#fff;background-color:#666666;}
