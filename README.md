@@ -1,5 +1,5 @@
 # Unblockit on Github
 
-View the site on Github at: https://unblocked-pw.github.io
+The current Unblockit domain is: https://unblockit.buzz
 
-View the live site at: https://unblockit.buzz
+The Github mirror is: https://unblocked-pw.github.io
