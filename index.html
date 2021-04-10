@@ -294,7 +294,7 @@
       if (domain){
         if (removed){
           var sitename = domain.replace(/https?:\/\//, '').replace(/\..*/,'');
-          document.getElementById('noticeContainer').style.display='block';document.getElementById('noticeContainer').innerHTML = '<div class="alert" style="width:100%;padding-top:14px;"><span style="font-weight:bold">'+sitename.charAt(0).toUpperCase() + sitename.slice(1)+'</span> is no longer available on Unblockit<br><br><span style="font-size:14px">The site was likely shut down and is no longer accessible by our servers<br><br>See <a href="https://www.reddit.com/r/unblockit" title="Unblockit Subreddit" target="_blank">our subreddit</a> for more information<br><br><strong>Please try another site below</strong></span></div>';
+          document.getElementById('noticeContainer').style.display='block';document.getElementById('noticeContainer').innerHTML = '<div class="alert" style="width:100%;padding-top:14px;"><span style="font-weight:bold">'+sitename.charAt(0).toUpperCase() + sitename.slice(1)+'</span> is no longer available on Unblockit<br><br><span style="font-size:14px">Possible reasons: site shut down, site no longer compatible with Unblockit, prolonged downtime<br><br>We may have more information on our <a href="https://www.reddit.com/r/unblockit" title="Unblockit Subreddit" target="_blank">our subreddit</a><br><br><strong>Please try another site below</strong></span></div>';
         }
         else if(domain.match('unblockit')||domain.match('unblocked')||domain.match('pirateproxy')){
           var sitename = domain.replace(/https?:\/\//, '');var btns = document.getElementsByClassName('btn');var rgxp = new RegExp(sitename, "g");
